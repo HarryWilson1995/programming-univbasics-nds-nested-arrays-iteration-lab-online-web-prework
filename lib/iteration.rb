@@ -8,9 +8,9 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   row_index = 0 
   while row_index < src.count do 
-  element0 = src[row_index][0].to_s
-  element1 = src[row_index][1].to_s
-  print "I love " + element0.to_s + " and " + element1.to_s + " on my pizza"
+  element0 = src[row_index][0]
+  element1 = src[row_index][1]
+  p "I love " + element0.to_s + " and " + element1.to_s + " on my pizza"
   row_index += 1 
 end 
   
