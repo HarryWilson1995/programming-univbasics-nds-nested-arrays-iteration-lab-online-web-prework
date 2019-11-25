@@ -10,7 +10,7 @@ def join_ingredients(src)
   while row_index < src.count do 
   element0 = row_index[0].to_s
   element1 = row_index[1].to_s
-  p "I love " + element0.to_s + " and " + element1.to_s + " on my pizza"
+  print "I love " + element0.to_s + " and " + element1.to_s + " on my pizza"
   row_index += 1 
 end 
   
