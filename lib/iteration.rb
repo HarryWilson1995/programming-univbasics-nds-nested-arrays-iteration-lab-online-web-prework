@@ -12,8 +12,7 @@ def join_ingredients(src)
   element1 = src[row_index][1]
   p "I love " + element0.to_s + " and " + element1.to_s + " on my pizza"
   row_index += 1 
-end 
-  
+  end 
 end
 
 def find_greater_pair(src)
